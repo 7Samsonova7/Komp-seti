@@ -1,0 +1,27 @@
+<! DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>lang</title>
+<style>
+P{
+font-size: 1508; 
+}
+q: lang (de) (
+quotes: "\201E" "\201c"; 
+}
+q: lang (en) {
+quotes: "\201C" "\201D"; 
+}
+q:lang(fr), q:lang(ru) {
+quotes: "\00AB" "\00BB";
+}
+</style>
+</head>
+<body>
+<p>Цитата на франuузском языке: <q lang="fr">Ce que femme veut,
+Dieu le veut</q>.</p>
+<p>Цитата на немецком: <q lang="de">Der Mensch, versuche die Gotter nicht</q>.</p>
+<p>Цитата на aнглийском: <q lang="en">Tu be or not to be</q>.</p>
+</body>
+</html>
