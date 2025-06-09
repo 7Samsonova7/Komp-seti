@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Таблица с выделением и границами</title>
+<style>
+    table {
+        width: 70%;
+        border-collapse: collapse;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    }
+    thead th {
+        background-color: #2a58ea;
+        color: #fff;
+        padding: 8px 12px;
+        text-align: left;
+        border-bottom: 2px solid #0be052;
+    }
+    tbody td {
+        padding: 6px 12px;
+        border-bottom: 1px solid #0be052;
+        color: #669;
+    }
+    tbody tr:nth-child(even) {
+        background-color: #b9c6f7;
+        color: #666;
+    }
+    tbody tr:nth-child(odd) {
+        background-color: transparent;
+        color: #333;
+    }
+</style>
+</head>
+<body>
+
+<table>
+    <thead>
+        <tr>
+            <th>Employee</th>
+            <th>Salary</th>
+            <th>Bonus</th>
+            <th>Supervisor</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Stephen C. Cox</td>
+            <td>$300</td>
+            <td>$50</td>
+            <td>Bob</td>
+        </tr>
+        <tr>
+            <td>Josephin Tan</td>
+            <td>$150</td>
+            <td>–</td>
+            <td>Annie</td>
+        </tr>
+        <tr>
+            <td>Joyce Ming</td>
+            <td>$200</td>
+            <td>$35</td>
+            <td>Andy</td>
+        </tr>
+        <tr>
+            <td>James A. Pentel</td>
+            <td>$175</td>
+            <td>$25</td>
+            <td>Annie</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
+
